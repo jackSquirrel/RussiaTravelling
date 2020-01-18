@@ -1,0 +1,11 @@
+.website__url {
+    margin: 0;
+    margin-bottom: 16px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}

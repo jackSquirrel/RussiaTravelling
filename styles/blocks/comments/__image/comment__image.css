@@ -1,0 +1,17 @@
+@import url("./_hafizov/comment__image_hafizov.css");
+@import url("./_lyagushkin/comment__image_lyagushkin.css");
+@import url("./_maximishin/comment__image_maximishin.css");
+
+.comment__image {
+    margin: 0;
+    width: 97px;
+    height: 97px;
+}
+
+@media screen and (max-width: 1023px){
+    .comment__image{
+        text-align: center;
+        margin-bottom: 16px;
+        order: 0;
+    }
+}

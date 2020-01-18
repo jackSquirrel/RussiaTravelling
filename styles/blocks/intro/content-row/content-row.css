@@ -1,0 +1,12 @@
+.content-row {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    max-width: 683px;
+}
+
+@media screen and (max-width: 479px){
+    .content-row{
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,22 @@
+.comment {
+    max-width: 382px;
+    margin-right: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment:last-child{
+    margin-right: 0;
+}
+
+@media screen and (max-width: 1023px){
+    .comment{
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 48px;
+    }
+
+    .comment:last-child{
+        margin-bottom: 0;
+    }
+}

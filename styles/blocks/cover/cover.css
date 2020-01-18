@@ -1,0 +1,69 @@
+@import url("./__title/cover__title.css");
+@import url("./__subtitle/cover__subtitle.css");
+
+.cover {
+    min-width: 1184px;
+    min-height: 594px;
+    position: relative;
+    background-image: url("./cover-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.cover::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cover:hover::after {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1183px){
+    .cover{
+        min-width: 100vw;
+        min-height: 0;
+        padding-bottom: calc((100% + 48px * 2) * (594/1184));
+    }
+}
+
+@media screen and (max-width: 1120px){
+    .cover{
+        padding-bottom: 562px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .cover{
+        padding-bottom: calc(100vw * 562/1024);
+    }
+}
+
+@media screen and (max-width: 911px){
+    .cover{
+        padding-bottom: 500px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .cover{
+        padding-bottom: calc(100vw * 500/768);
+    }
+}
+
+@media screen and (max-width: 417px){
+    .cover{
+        padding-bottom: 272px;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .cover{
+        padding-bottom: calc(100vw - 104px);
+    }
+}

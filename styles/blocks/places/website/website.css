@@ -1,0 +1,27 @@
+@import url("./__url-heading/website__url-heading.css");
+@import url("./__url/website__url.css");
+
+.website {
+    max-width: 484px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1279px){
+    .website{
+        max-width: 456px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .website{
+        max-width: 352px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .website{
+        display: none;
+    }
+}

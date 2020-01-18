@@ -1,0 +1,30 @@
+.place__text {
+    max-width: 484px;
+    margin: 0;
+    align-self: flex-start;
+}
+
+@media screen and (max-width: 1079px){
+    .place__text{
+        max-width: calc(100% * (456/928)); 
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .place__text{
+        max-width: calc(100% * (352/720)); 
+    }
+}
+
+@media screen and (max-width: 767px){
+    .place__text{
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 491px){
+    .place__text{
+        max-width: calc(100vw - 32px); 
+        align-self: center;
+    }
+}

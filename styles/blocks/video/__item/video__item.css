@@ -1,0 +1,57 @@
+.video__item {
+    width: calc(50% - 9px);
+    padding-bottom: 343px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.video__item:first-child {
+    background-image: url("./kamchatka-colors.png");
+    background-size: cover;
+}
+
+.video__item:last-child {
+    background-image: url("./observatory.png");
+    background-size: cover;
+}
+
+.video__item::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video__item:hover::after {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 1279px){
+    .video__item{
+        width: calc(50% - 8px);
+        padding-bottom: calc((50% - 8px) * (288/456));
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .video__item{
+        padding-bottom: calc((50% - 8px) * (200/352));
+    }
+}
+
+@media screen and (max-width: 767px){
+    .video__item{
+        width: 100%;
+        padding-bottom: calc(100% * (200/343));
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 374px){
+    .video__item{
+        padding-bottom: calc(100% * (192/288));
+    }
+}

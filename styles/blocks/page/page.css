@@ -1,0 +1,48 @@
+.page {
+    min-width: 100%;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif; 
+    background-color: #2A2C2F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.content {
+    max-width: 1184px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1279px){
+    .content {
+        width: calc(100% - 48px*2);
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .content{
+        width: 928px;
+    }
+}
+
+@media screen and (max-width: 975px){
+    .content{
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width: 767px){
+    .content{
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 751px){
+    .content{
+        width: calc(100% - 32px);
+    }
+}
