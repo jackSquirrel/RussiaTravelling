@@ -3,4 +3,4 @@
 ## Технологии
 HTML, CSS, адаптивная верстка
 ## Демо
-Сайт можно найти по ссылке: (https://jacksquirrel.github.io/RussiaTravelling/)
+Сайт можно найти по ссылке: https://jacksquirrel.github.io/RussiaTravelling/
